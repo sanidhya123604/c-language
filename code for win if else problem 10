@@ -1,0 +1,42 @@
+//  Write a C program to input week number and print week day.
+
+
+#include <stdio.h>
+
+int main()
+{
+    int day;
+    printf("enter the day from 1 to 7");
+    scanf("%d",&day);
+    if(day==1)
+    {
+        printf("mon");
+    }
+    else if(day==2)
+    {
+        printf("tues");
+    }
+     else if(day==3)
+    {
+        printf("wed");
+    }
+     else if(day==4)
+    {
+        printf("thurs");
+    }
+     else if(day==5)
+    {
+        printf("frid");
+    }
+     else if(day==6)
+    {
+        printf("sataur");
+    }
+     else if(day==2)
+    {
+        printf("sun");
+    }
+    
+    return 0;
+}
+
